@@ -1,12 +1,13 @@
 import './App.css'
+import Blog from './assets/Component/Blog/Blog'
+import Header from './assets/Component/Header/Header'
+
 
 function App() {
   return (
     <>
-      
-      <h1 className='text-2xl bg-red-600'>Recat Knowloge Cafe</h1>
-      
-     
+      <Header></Header>
+      <Blog></Blog>
     </>
   )
 }
